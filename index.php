@@ -17,7 +17,7 @@ include_once('templates/header.php');
     <p>Selamat datang, <?= $_SESSION['username']; ?> 👋</p>
     <p>
         Role Anda,
-        <?= isset($_SESSION['role']) ? $_SESSION['role'] : 'Tidak ada role'; ?>
+        sebagai <?= isset($_SESSION['role']) ? $_SESSION['role'] : 'Tidak ada role'; ?>
     </p>
 </div>
 <!-- /.container-fluid -->
