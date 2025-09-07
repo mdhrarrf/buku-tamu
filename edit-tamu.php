@@ -1,5 +1,6 @@
 <?php
 require_once('function.php');
+session_start();
 
 // Jika ada id tamu di URL
 if (isset($_GET['id'])) {

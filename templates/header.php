@@ -75,7 +75,10 @@
                         <span>User</span>
                     </a>
                 </li>
-            <?php endif; ?>
+            <?php
+            endif;
+            ?>
+
 
             <!-- Divider -->
             <hr class="sidebar-divider d-none d-md-block">
