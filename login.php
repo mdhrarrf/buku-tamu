@@ -34,7 +34,7 @@ if(isset($_POST['login'])) {
 
             // simpan session login
             $_SESSION['login'] = true;
-            $_SESSION['user_id'] = $row['id_user']; // opsional: untuk tahu siapa yang login
+            $_SESSION['user_id'] = $row['id_user']; // opsional: untuk //tahu siapa yang login
             $_SESSION['username'] = $row['username']; // opsional
 
             // tambahan: simpan role
